@@ -47,6 +47,7 @@
             "id": "31014-11941941-14914150",
             "layerType": "text",
             "layerName": "Text Layer",
+            "text": "Hello, World!",
             "font": "Arial",
             "fontSize": 24,
             "color": "#FF0000",
