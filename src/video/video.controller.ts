@@ -1,5 +1,9 @@
 import { Controller, Param, Post, Body } from '@nestjs/common';
-import { VideoService, ExportVideoDto, VideoExportResult } from './video.service';
+import {
+  VideoService,
+  ExportVideoDto,
+  VideoExportResult,
+} from './video.service';
 
 @Controller('video')
 export class VideoController {

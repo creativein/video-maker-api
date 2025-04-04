@@ -1,0 +1,144 @@
+{
+    "projectId": "31014-11941941-14914149",
+    "projectName": "Sample Project",
+    "projectDescription": "This is a sample project for demonstration purposes.",
+    "projectDuration": 20,
+    "projectWidth": 1920,
+    "projectHeight": 1080,
+    "projectBackgroundColor": "#FFFFFF",
+    "userId": "user-12345",
+    "userName": "John Doe",
+    "layers": [
+        {
+            "id": "31014-11941941-14914149",
+            "layerType": "image",
+            "layerName": "Image Layer",
+            "imagePath": "path/to/image.png",
+            "scale": 1.0,
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0,
+            "opacity": 1.0,
+            "filters": [
+                {
+                    "type": "blur",
+                    "amount": 5.0
+                },
+                {
+                    "type": "brightness",
+                    "amount": 1.2
+                }
+            ],
+            "effects": [
+                {
+                    "type": "dropShadow",
+                    "color": "#000000",
+                    "opacity": 0.5,
+                    "distance": 10,
+                    "angle": 45
+                }
+            ],
+            "startTime": 0,
+            "endTime": 10
+        },
+        {
+            "id": "31014-11941941-14914150",
+            "layerType": "text",
+            "layerName": "Text Layer",
+            "font": "Arial",
+            "fontSize": 24,
+            "color": "#FF0000",
+            "position": {
+                "x": 100,
+                "y": 200
+            },
+            "rotation": 0,
+            "opacity": 1.0,
+            "filters": [
+                {
+                    "type": "shadow",
+                    "color": "#000000",
+                    "opacity": 0.5,
+                    "distance": 5,
+                    "angle": 45
+                }
+            ],
+            "effects": [
+                {
+                    "type": "fadeIn",
+                    "duration": 1.0
+                },
+                {
+                    "type": "fadeOut",
+                    "duration": 1.0
+                }
+            ],
+            "startTime": 0,
+            "endTime": 10
+        },
+        {
+            "id": "31014-11941941-14914151",
+            "layerType": "video",
+            "layerName": "Video Layer",
+            "videoPath": "path/to/video.mp4",
+            "scale": 1.0,
+            "position": {
+                "x": 50,
+                "y": 50
+            },
+            "rotation": 0,
+            "opacity": 1.0,
+            "filters": [
+                {
+                    "type": "contrast",
+                    "amount": 1.5
+                }
+            ],
+            "effects": [
+                {
+                    "type": "zoomIn",
+                    "duration": 2.0
+                }
+            ],
+            "startTime": 5,
+            "endTime": 15
+        },
+        {
+            "id": "31014-11941941-14914152",
+            "layerType": "audio",
+            "layerName": "Audio Layer",
+            "audioPath": "path/to/audio.mp3",
+            "volume": 0.8,
+            "startTime": 0,
+            "endTime": 20
+        },
+        {
+            "id": "31014-11941941-14914153",
+            "layerType": "shape",
+            "layerName": "Shape Layer",
+            "shapeType": "rectangle",
+            "dimensions": {
+                "width": 200,
+                "height": 100
+            },
+            "color": "#00FF00",
+            "position": {
+                "x": 150,
+                "y": 150
+            },
+            "rotation": 0,
+            "opacity": 0.9,
+            "filters": [
+                {
+                    "type": "outline",
+                    "color": "#000000",
+                    "thickness": 2
+                }
+            ],
+            "startTime": 3,
+            "endTime": 12
+        }
+    ]
+}
